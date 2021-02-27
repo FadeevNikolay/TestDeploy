@@ -8,15 +8,13 @@ function HW5() {
     return (
         <div className={css.h5Block}>
             {/*в gh-pages лучше работает HashRouter*/}
-            {/*<HashRouter>*/}
+            <HashRouter>
 
-            <BrowserRouter>
                 <Header/>
 
                 <Routes/>
 
-                {/*</HashRouter>*/}
-            </BrowserRouter>
+                </HashRouter>
         </div>
     );
 }
