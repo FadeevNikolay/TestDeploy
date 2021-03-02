@@ -13,7 +13,7 @@ function Junior() {
     } as const;
 
     return (
-        <div style={styles}>JUNIOR PAGE</div>
+        <div style={styles}>JUNIOR PAGE Change</div>
     );
 }
 
